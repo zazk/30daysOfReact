@@ -1,11 +1,10 @@
-import React, { Component } from 'react';
+import React  from 'react';
 import {
   BrowserRouter as Router,
   Route,
   Link
 } from 'react-router-dom'
-
-import logo from './logo.svg';
+ 
 import './App.css';
 
 const Home = () =>(
@@ -17,7 +16,7 @@ const Home = () =>(
 const About = () => (
   <div>
     <h2>About</h2>
-  </div>
+  </div> 
 )
 
 const Topic = ({ match }) => (
