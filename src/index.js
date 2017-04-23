@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ParamsExample from './ParamsExample';
+import AuthExample from './AuthExample';
 import './index.css';
 
-ReactDOM.render(
-  <ParamsExample />,
+ReactDOM.render( 
+  <AuthExample />,
   document.getElementById('root')
 );
